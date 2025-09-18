@@ -1,7 +1,15 @@
 <settings>
   <servers>
+    <!-- For publishing to Exchange -->
     <server>
       <id>anypoint-exchange</id>
+      <username>${env.CA_CLIENT_ID}</username>
+      <password>${env.CA_CLIENT_SECRET}</password>
+    </server>
+
+    <!-- For deploying to CloudHub -->
+    <server>
+      <id>anypoint-deployment</id>
       <username>${env.CA_CLIENT_ID}</username>
       <password>${env.CA_CLIENT_SECRET}</password>
     </server>
