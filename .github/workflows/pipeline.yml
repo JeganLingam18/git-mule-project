@@ -32,7 +32,13 @@ jobs:
       run: mvn -B clean package -s .maven/settings.xml
 
     - name: Upload to Exchange
-      run: mvn deploy -s .maven/settings.xml
+      run: |
+        artifactName=$(ls target/*.jar | head -1)
+        mvn deploy \
+          -s .maven/settings.xml \
+          -DmuleDeploy \
+          -DskipTests
+
 
     - name: Deploy to CloudHub2 Sandbox
       run: |
