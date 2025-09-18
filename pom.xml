@@ -37,7 +37,6 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
 						<environment>Sandbox</environment>
-						<target>CH2</target> 
 						<region>us-east-2</region> 
 						<muleVersion>${app.runtime}</muleVersion> 
 						<server>Repository</server>
