@@ -37,7 +37,6 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
 						<environment>Sandbox</environment>
-						<region>us-east-2-aws</region> 
 						<muleVersion>${app.runtime}</muleVersion>
 						<server>Repository</server>
 						<applicationName>${project.artifactId}</applicationName>
@@ -45,6 +44,7 @@
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<deploymentSettings>
+							<region>us-east-2</region> 
 							<generateDefaultPublicUrl>true</generateDefaultPublicUrl>
 						</deploymentSettings>
 					</cloudhub2Deployment>
