@@ -23,6 +23,11 @@
 			<id>anypoint-exchange</id>
 			<url>https://maven.anypoint.mulesoft.com/api/v2/organizations/1ff162ac-85a4-4f8b-875b-da9756b22b99/maven</url>
 		</repository>
+		<snapshotRepository>
+			<id>anypoint-exchange</id>
+			<url>https://maven.anypoint.mulesoft.com/api/v2/organizations/1ff162ac-85a4-4f8b-875b-da9756b22b99/maven</url>
+		</snapshotRepository>
+
 	</distributionManagement>
 
 	<build>
