@@ -37,8 +37,8 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
 						<environment>Sandbox</environment>
-						<target>us-east-2</target> 
-						<muleVersion>${app.runtime}</muleVersion> 
+						<region>us-east-2-aws</region> 
+						<muleVersion>${app.runtime}</muleVersion>
 						<server>Repository</server>
 						<applicationName>${project.artifactId}</applicationName>
 						<releaseChannel>NONE</releaseChannel>
