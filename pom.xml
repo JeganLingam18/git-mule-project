@@ -43,8 +43,8 @@
 						<releaseChannel>NONE</releaseChannel>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
+						<region>us-east-2</region>
 						<deploymentSettings>
-							<region>us-east-2</region> 
 							<generateDefaultPublicUrl>true</generateDefaultPublicUrl>
 						</deploymentSettings>
 					</cloudhub2Deployment>
