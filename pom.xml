@@ -20,9 +20,8 @@
 	</properties>
 	<distributionManagement>
 		<repository>
-			<id>ca.anypoint.credentials</id>
-			<name>Corporate Repository</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v2/organizations/${project.groupId}/maven</url>
+			<id>anypoint-exchange</id>
+			<url>https://maven.anypoint.mulesoft.com/api/v2/organizations/1ff162ac-85a4-4f8b-875b-da9756b22b99/maven</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
@@ -46,7 +45,7 @@
 						<environment>Sandbox</environment>
 						<target>Cloudhub-US-East-2</target>
 						<muleVersion>4.4.0</muleVersion>
-						<server>ca.anypoint.credentials</server>
+						<server>anypoint-exchange</server>
 						<applicationName>ashish-demo-project-v1</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>

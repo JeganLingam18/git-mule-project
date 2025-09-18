@@ -1,7 +1,7 @@
 <settings>
   <servers>
     <server>
-      <id>ca.anypoint.credentials</id>
+      <id>anypoint-exchange</id>
       <username>${env.CA_CLIENT_ID}</username>
       <password>${env.CA_CLIENT_SECRET}</password>
     </server>
