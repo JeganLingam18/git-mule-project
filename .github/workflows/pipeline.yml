@@ -76,7 +76,7 @@ jobs:
         mvn deploy \
           -s .maven/settings.xml \
           -Dmule.artifact=$artifactName
-    
+          -e -X
     
   deploy:
     needs: upload
