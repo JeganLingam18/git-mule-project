@@ -29,4 +29,4 @@ jobs:
           mvn clean deploy --settings .maven/settings.xml -DskipMunitTests -DmuleDeploy \
           -Dclient.id="${{ secrets.CONNECTED_APP_CLIENT_ID }}" \
           -Dclient.secret="${{ secrets.CONNECTED_APP_CLIENT_SECRET }}" \
-          -Dtarget=CH2
+          -Dtarget=Cloudhub-US-East-2
