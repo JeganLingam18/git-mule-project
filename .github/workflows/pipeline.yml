@@ -108,3 +108,8 @@ jobs:
           -s .maven/settings.xml \
           -DskipTests \
           -DskipDeploymentVerification="true"
+    - name: Debug Secrets
+      run: |
+        echo "Client ID: $CA_CLIENT_ID"
+        echo "Client Secret Length: ${#CA_CLIENT_SECRET}"
+
