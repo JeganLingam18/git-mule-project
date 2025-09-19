@@ -12,7 +12,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener doc:name="Listener" doc:id="e88d120e-0fa2-4adb-809b-3ae283d16581" config-ref="HTTP_Listener_config" path="/mule"/>
 		<ee:transform doc:name="Transform Message" doc:id="3177b779-5e15-4cc7-abb9-b5cecf0696f1" >
 			<ee:message >
-				<ee:set-payload ><![CDATA["It's a github mule deploy"]]></ee:set-payload>
+				<ee:set-payload ><![CDATA["It's a Github mule deploy"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 	</flow>
